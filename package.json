@@ -1,7 +1,7 @@
 {
   "name": "job-tracker",
   "version": "0.1.0",
-  "homepage": "https://palakpandey-11.github.io/Job-tracker/",
+  "homepage": "https://github.com/palakpandey-11/Job-tracker.git",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
