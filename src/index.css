@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body.light {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+body.dark {
+  background-color: #121212;
+  /* color: #fff; */
+}
+
+.job-form,
+.card,
+.dashboard-container {
+  transition: background 0.3s, color 0.3s;
+
+}
+
+/* Example dark mode component override */
+body.dark .card {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
